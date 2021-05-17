@@ -1,0 +1,288 @@
+.footer {
+  width: 100%;
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #faf1ed;
+}
+
+.footer-container {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-items-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 2fr;
+  grid-gap: 40px;
+  margin-bottom: 10px;
+}
+
+.footer-item-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.about-tripadvisor {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 4px;
+  color: rgb(66, 66, 66);
+}
+
+.about-us,
+.about-us-unhover {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  margin: 0px;
+  margin-bottom: 4px;
+}
+
+.about-us:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer-terms-conditions-div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 15px;
+}
+
+.footer-terms-condition {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-terms-conditions-two {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-rights-reserved-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-rights {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0px;
+  margin-bottom: 4px;
+}
+
+.footer-terms-privacy-cookie {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer-terms {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0px;
+  text-decoration: underline;
+  margin-right: 5px;
+}
+
+.last-line {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0px;
+  margin-top: 5px;
+  letter-spacing: -0.3px;
+}
+
+.footer-country-currency {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.country-currency {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.country {
+  padding: 5px 10px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+}
+
+.country:hover {
+  cursor: pointer;
+  background-color: rgb(245, 245, 245);
+}
+
+.country-with-currency {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.footer-social-div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.social-icons {
+  margin-right: 30px;
+}
+
+.footer-items-grid-two {
+  display: none;
+}
+
+@media only screen and (max-width: 1300px) {
+  .footer-container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  .footer-container {
+    width: 96%;
+  }
+
+  .footer-terms-privacy-cookie {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer-terms-conditions-div {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .footer-terms-conditions-div {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+
+  .footer-country-currency {
+    grid-row-start: 1;
+  }
+
+  .footer-items-grid {
+    margin-bottom: 20px;
+  }
+
+  .footer-social-div {
+    justify-content: flex-start;
+  }
+
+  .footer-items-grid {
+    display: none;
+  }
+
+  .footer-items-grid-two {
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-item-div-two {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 25px;
+  }
+
+  .footer-grid-header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .about-tripadvisor-two {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0px;
+    width: 100%;
+  }
+
+  .footer-item-div-two:hover {
+    cursor: pointer;
+  }
+
+  .footer-item-div-two:hover .about-tripadvisor-two {
+    text-decoration: underline;
+  }
+
+  .footer-item-div-two:focus .about-tripadvisor-two {
+    text-decoration: underline;
+  }
+
+  .expand-icon {
+    margin-right: 15px;
+  }
+
+  .expand-div {
+    width: 100%;
+    padding: 10px 0px 0px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .social-icons {
+    width: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .country-currency {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .country {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .footer-container {
+    width: 90%;
+  }
+}

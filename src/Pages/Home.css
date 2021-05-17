@@ -1,0 +1,617 @@
+.home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.small-cards-div {
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-top: 110px;
+  margin-bottom: 60px;
+  grid-column-gap: 15px;
+  grid-row-gap: 10px;
+}
+
+.app-second-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.background-one-img-div {
+  width: 75%;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.home-search-bar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  background-color: white;
+  box-shadow: 0px 3px 6px rgb(47, 47, 47);
+  width: 68%;
+  padding: 17px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.background-one-img {
+  width: 100%;
+}
+
+.home-search-field {
+  width: 100%;
+  margin-left: 10px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.home-search-field:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.keep-planning-text,
+.destinations-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  letter-spacing: -0.5px;
+  width: 75%;
+}
+
+.destinations-title {
+  font-size: 22px;
+}
+
+.recent-searches-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  margin-bottom: 16px;
+}
+
+.traveller-guides-div {
+  width: 75%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 17px;
+  margin-bottom: 80px;
+}
+
+.destinations-div-first {
+  width: 75%;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.destinations-div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.destinations-div::-webkit-scrollbar {
+  display: none;
+}
+
+.left-btn,
+.right-btn {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-btn {
+  right: 0;
+  left: 100%;
+}
+
+.left-icon,
+.right-icon {
+  width: 100%;
+}
+
+.left-btn:hover,
+.right-btn:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
+.sponsor-div {
+  width: 100%;
+  position: relative;
+  background-color: #faf1ed;
+  padding: 70px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.sponsor-main-title {
+  padding: 12px 0px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 25%;
+}
+
+.sponsor-title-text {
+  width: fit-content;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  letter-spacing: -0.3px;
+  margin: 0px;
+}
+
+.sponsor-card {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sponsor-img {
+  width: 100%;
+}
+
+.sponsor-details-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 0px 40px;
+  position: relative;
+}
+
+.sponsor-card-title {
+  width: fit-content;
+  margin: 0px;
+  margin-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.3px;
+}
+
+.sponsor-relax-explore {
+  width: fit-content;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: -0.3px;
+  margin-bottom: 15px;
+}
+
+.sponsor-details-text {
+  width: 100%;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0px;
+  letter-spacing: 0.3px;
+  margin-bottom: 25px;
+}
+
+.sponsor-items {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #484848;
+  margin-bottom: 5px;
+}
+
+.sponsor-visit-dubai-logo {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 80px;
+}
+
+.achievements-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #004f32;
+}
+
+.achievements-card {
+  width: 75%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 30px;
+}
+
+.achievements-card-logo-title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.achievement-logo-svg {
+  margin-bottom: 25px;
+}
+
+.achievements-title {
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  color: white;
+  line-height: 35px;
+  margin-bottom: 65px;
+}
+
+.achievements-winners-btn {
+  padding: 8px 15px;
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.achievements-winners-btn:hover {
+  background-color: #3d3d3d;
+  cursor: pointer;
+}
+
+.achievement-background-img {
+  width: 100%;
+}
+
+.black-screen {
+  display: none;
+}
+
+.menu-container {
+  display: none;
+}
+
+.open {
+  display: none;
+}
+
+.close-icon {
+  display: none;
+}
+
+@media only screen and (max-width: 1300px) {
+  .small-cards-div,
+  .background-one-img-div,
+  .keep-planning-text,
+  .traveller-guides-div,
+  .destinations-title,
+  .destinations-div-first {
+    width: 90%;
+  }
+
+  .sponsor-card {
+    width: 60%;
+  }
+
+  .achievements-card {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  .small-cards-div,
+  .background-one-img-div,
+  .keep-planning-text,
+  .traveller-guides-div,
+  .destinations-title,
+  .destinations-div-first {
+    width: 96%;
+  }
+
+  .small-cards-div {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .sponsor-card {
+    width: 80%;
+  }
+
+  .achievements-card {
+    width: 96%;
+  }
+
+  .sponsor-main-title {
+    width: 33%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .achievements-card {
+    grid-template-columns: 1fr;
+    grid-gap: 45px;
+    width: 100%;
+  }
+
+  .achievements-div {
+    padding: 50px 0px;
+    padding-bottom: 0px;
+  }
+
+  .achievements-title {
+    margin-bottom: 36px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .small-cards-div {
+    width: 96%;
+    grid-template-columns: repeat(7, 1fr);
+    overflow-x: auto;
+    margin-bottom: 20px;
+    margin-top: 90px;
+  }
+
+  .small-cards-div::-webkit-scrollbar {
+    display: none;
+  }
+
+  .background-one-img-div {
+    width: 100%;
+    position: relative;
+    margin-bottom: 80px;
+    overflow: hidden;
+  }
+
+  .home-search-bar {
+    width: 90%;
+  }
+
+  .traveller-guides-div {
+    width: 96%;
+    overflow-x: auto;
+  }
+
+  .traveller-guides-div::-webkit-scrollbar {
+    display: none;
+  }
+
+  .left-btn,
+  .right-btn {
+    display: none;
+  }
+
+  .sponsor-card {
+    width: 93%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .sponsor-visit-dubai-logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 70px;
+  }
+
+  .sponsor-details-div {
+    padding: 45px;
+  }
+
+  .achievements-title {
+    width: 35%;
+  }
+
+  .home-search-icon {
+    width: 22px;
+  }
+
+  .home-search-field {
+    font-size: 15px;
+  }
+
+  .background-one-img {
+    height: 100%;
+    width: 150%;
+  }
+
+  .sponsor-heart {
+    width: 16px;
+  }
+
+  .black-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 30;
+    background-color: black;
+    opacity: 0.3;
+  }
+
+  .menu-container {
+    width: 46%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: white;
+    z-index: 31;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+  }
+
+  .open {
+    transform: translateX(0%);
+  }
+
+  .close-icon {
+    display: block;
+    margin-left: auto;
+    margin-bottom: 30px;
+  }
+
+  .menu-sign-in-btn {
+    display: block;
+    width: 85%;
+    margin: 0px auto;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 0px;
+    margin-bottom: 20px;
+  }
+
+  .menu-main-items,
+  .menu-second-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 0px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+  }
+
+  .menu-review {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 22px;
+  }
+
+  .menu-review-text {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px;
+    margin-right: 8px;
+    letter-spacing: -0.3px;
+  }
+
+  .alerts,
+  .trips {
+    margin-bottom: 22px;
+  }
+
+  .bookings {
+    margin-bottom: 0px;
+  }
+
+  .menu-second-items {
+    border: none;
+    padding: 20px 0px;
+  }
+
+  .second-item {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px;
+    margin-bottom: 15px;
+    letter-spacing: -0.3px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .background-one-img {
+    height: 100%;
+    width: 250%;
+  }
+
+  .home-search-bar {
+    width: 80%;
+  }
+
+  .small-cards-div,
+  .keep-planning-text,
+  .traveller-guides-div,
+  .destinations-title,
+  .destinations-div-first {
+    width: 90%;
+  }
+
+  .traveller-guides-div {
+    grid-gap: 8px;
+  }
+
+  .sponsor-main-title {
+    width: 60%;
+  }
+
+  .sponsor-card {
+    width: 90%;
+  }
+
+  .achievements-title {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .sponsor-main-title {
+    width: 60%;
+    padding: 12px 20px;
+  }
+
+  .sponsor-title-text {
+    width: 60%;
+    text-align: center;
+  }
+
+  .menu-container {
+    width: 75%;
+  }
+}

@@ -1,0 +1,60 @@
+.smallcard-div {
+  position: relative;
+  margin-right: 15px;
+  width: 275px;
+  height: 275px;
+}
+
+.smallcard-div:hover {
+  cursor: pointer;
+}
+
+.smallCard-img {
+  height: 100%;
+  width: 100%;
+}
+
+.smallCard-img-div {
+  position: relative;
+}
+
+.smallCard-img-div::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.smallCard-title {
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+  left: 15px;
+  right: 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: white;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  .smallCard-title {
+    font-size: 23px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .smallcard-div {
+    width: 280px;
+  }
+}

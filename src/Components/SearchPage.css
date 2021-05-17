@@ -1,0 +1,36 @@
+.searchpage-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 32;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 25px 15px;
+}
+
+.searchpage-search-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.searchpage-input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 25px;
+}
+
+.searchpage-input:focus {
+  box-shadow: none;
+  outline: none;
+}

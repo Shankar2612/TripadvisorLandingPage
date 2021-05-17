@@ -1,0 +1,48 @@
+.small-card-container {
+  display: flex;
+  padding: 15px 15px;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 12px;
+  height: 45px;
+}
+
+.small-card-container:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.small-card-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0px;
+  letter-spacing: -0.5px;
+}
+
+@media only screen and (max-width: 1180px) {
+  .small-card-container {
+    height: 30px;
+  }
+
+  .small-card-icon {
+    width: 24px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .small-card-container {
+    width: 150px;
+    height: 25px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .small-card-container {
+    width: 140px;
+    height: 25px;
+  }
+}
