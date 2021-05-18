@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/TripadvisorLandingPage/static/css/main.cfbb8eb1.chunk.css",
+    "main.css": "/TripadvisorLandingPage/static/css/main.49fc49c0.chunk.css",
     "main.js": "/TripadvisorLandingPage/static/js/main.ad6c337e.chunk.js",
     "main.js.map": "/TripadvisorLandingPage/static/js/main.ad6c337e.chunk.js.map",
     "runtime-main.js": "/TripadvisorLandingPage/static/js/runtime-main.7c73257b.js",
@@ -8,7 +8,7 @@
     "static/js/2.80957113.chunk.js": "/TripadvisorLandingPage/static/js/2.80957113.chunk.js",
     "static/js/2.80957113.chunk.js.map": "/TripadvisorLandingPage/static/js/2.80957113.chunk.js.map",
     "index.html": "/TripadvisorLandingPage/index.html",
-    "static/css/main.cfbb8eb1.chunk.css.map": "/TripadvisorLandingPage/static/css/main.cfbb8eb1.chunk.css.map",
+    "static/css/main.49fc49c0.chunk.css.map": "/TripadvisorLandingPage/static/css/main.49fc49c0.chunk.css.map",
     "static/js/2.80957113.chunk.js.LICENSE.txt": "/TripadvisorLandingPage/static/js/2.80957113.chunk.js.LICENSE.txt",
     "static/media/tripadvisor_background_one.401925e9.png": "/TripadvisorLandingPage/static/media/tripadvisor_background_one.401925e9.png",
     "static/media/tripadvisor_background_two.d7fc34da.jpeg": "/TripadvisorLandingPage/static/media/tripadvisor_background_two.d7fc34da.jpeg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.7c73257b.js",
     "static/js/2.80957113.chunk.js",
-    "static/css/main.cfbb8eb1.chunk.css",
+    "static/css/main.49fc49c0.chunk.css",
     "static/js/main.ad6c337e.chunk.js"
   ]
 }
