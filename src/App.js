@@ -7,11 +7,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="app">
-        <Router>
-          <Switch>
-            <Route path="/" component={Home} />
-          </Switch>
-        </Router>
+        <Home />
       </div>
     )
   }
