@@ -600,6 +600,12 @@
   }
 }
 
+@media only screen and (max-width: 450px) {
+  .menu-container {
+    width: 75%;
+  }
+}
+
 @media only screen and (max-width: 400px) {
   .sponsor-main-title {
     width: 60%;
@@ -609,9 +615,5 @@
   .sponsor-title-text {
     width: 60%;
     text-align: center;
-  }
-
-  .menu-container {
-    width: 75%;
   }
 }
